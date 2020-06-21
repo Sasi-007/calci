@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    width: 100%;
+    height: 730px;
+    background: linear-gradient(213.07deg, #0F1A21 2.75%, #415742 44%, #5B7D58 68.47%);
+}
+.calculator {
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    margin: 0% 35%;
+    top: 20px;
+    background: #0F1A21;
+    box-shadow: 0 2.4px 2.2px rgba(0, 0, 0, 0.055),
+    0 5.9px 5.3px rgba(0, 0, 0, 0.092),
+    0 11px 10px rgba(0, 0, 0, 0.118),
+    0 19.7px 17.9px rgba(0, 0, 0, 0.142),
+    0 36.8px 33.4px rgba(0, 0, 0, 0.18),
+    0 88px 80px rgba(0, 0, 0, 0.3);
+                
+
+}
+.screen {
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    left: 0px;
+    top: 0px;
+    background: #E8FFE4;
+    
+}
+
+#result {
+    position: absolute;
+    width: inherit;
+    height: 84px;
+    top: 145px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 94px;
+    text-align: center;
+    color: #0F1A21;
+    outline: none;
+    border: none;
+    background: #E8FFE4;
+    
+    
+}
+
+.top-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 75px);
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 230px;
+    background: #94D489;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    
+    
+    
+}
+
+.cancel, .plus {
+    background: #94D489!important;
+    color: #0F1A21 !important;
+    height: 70px !important;
+    
+}
+
+.cancel:hover, .plus:hover {
+    background: #80B976 !important;
+    cursor: pointer;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 75px);
+    width: 100%;
+    height: 400px;
+    margin-top: 300px; 
+    
+}
+
+.button {
+    background-color: #0F1A21;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    color: slategrey;
+    outline: none;
+    
+}
+
+.button:hover {
+    background-color: rgb(29, 40, 48);
+    cursor: pointer;
+}
+
